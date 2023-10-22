@@ -64,3 +64,13 @@ fruits.insert(2,["ak","bk"])
 print(fruits)
 print(fruits[2][1])# bk will get
 print(fruits[2][0]) # ak will get
+
+input=[[1,2],[3,4],[5,6],[7,8]]
+#ans=[1,2,3,4,5,6,7,8]
+#input=[item for sublist in input for item in sublist]
+#print(input)
+flat_list=[]
+for i in input:
+    for j in i:
+          flat_list.append(j)
+print(flat_list)
